@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>POSTING A RIDE</title>
+  </head>
+
+  <body>
+  	<h1>Post your ride!</h1>
+
+  	<p>
+  		Planning a trip and looking for riders to join you? Post the info below. 
+  	</p>
+
+  	<form method="post">
+  		<div>
+  			<label for="starting-location">Start location:</label>
+  			<input type="text" id="starting-location" name="start_loc">
+  		</div>
+  		<div>
+  			<label for="ending-location">End location:</label>
+  			<input type="text" id="ending-location" name="end_loc">
+  		</div>
+  		<p>
+  			Start date (MM/DD/YYYY):
+  		</p>
+  			<!-- <label for="start-date">Start date:</label> -->
+  		<div>
+  			<label for="month">MM:</label>
+  			<input type="text" id="month" name="start-month">
+  			<label for="day">DD:</label>
+  			<input type="text" id="day" name="start-day">
+  			<label for="year">YYYY:</label>
+  			<input type="text" id="year" name="start-year">
+  		</div>
+  		<p>
+  			Below, tell riders a little about yourself and what you expect from them:
+  		</p>
+  		<div>
+  			<label for="description">Description:</label>
+  			<textarea type="text" id="description" name="trip-description"></textarea>
+  		</div>
+  		<p>
+  			Contact information:
+  		</p>
+  		<div>
+  			<label for="name">Name:</label>
+  			<input type="text" id="name" name="user-name">
+  		</div>
+  		<div>
+  			<label for="phone">Phone:</label>
+  			<input type="text" id="phone" name="user_phone">
+  		</div>
+  		<div>
+  			<label for="mail">E-mail:</label>
+  			<input type="email" id="mail" name="user_mail">
+  		</div>
+  		
+  		<div class="button">
+  			<button type="submit">Send your message</button>
+  		</div>
+  	</form>
+
+  </body>
+
+</html>
